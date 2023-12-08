@@ -3,8 +3,8 @@ import { DragDropContext } from "react-beautiful-dnd";
 import Column from "./Column";
 import Button from '@mui/material/Button';
 import { useDispatch, useSelector } from "react-redux";
-import { addColumn, moveCard } from "./allactions.js"
-import AddColumnModal from "./modals/AddColumnModal.js";
+import { addColumn, moveCard } from "./AllActions"
+import AddColumnModal from "./modals/AddColumnModal";
 import "../styling/styles.scss"
 
 export default function KanbanBoard(){
